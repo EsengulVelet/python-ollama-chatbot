@@ -1,73 +1,36 @@
-Qwen AI ChatBot (PyQt6 Desktop App)
-A modern desktop AI chatbot application built with PyQt6 and powered by a local Large Language Model (LLM) using Ollama API.
-This project provides an interactive chat interface and an advanced code analysis tool integrated into a desktop GUI.
-✨ Features
-💬 AI Chat Interface
-🧑‍💻 Code Analysis Mode
-🎨 Styled Chat UI (HTML formatted messages)
-📦 Local LLM Integration (Ollama)
-🔒 Privacy-friendly (runs locally)
-🧩 Code block auto-formatting
-📜 Scrollable chat history
-🛠️ Technologies Used
-Python 3
-PyQt6
-Requests
-Ollama API
-Qwen2:1.5B Model
-HTML Styling inside QTextEdit
-🏗️ Application Architecture
-User Input
-     ↓
-PyQt6 GUI
-     ↓
-API Request (Ollama)
-     ↓
-Qwen LLM Response
-     ↓
-Code Formatting Engine
-     ↓
-Chat Interface Output
-⚙️ Installation
-1️⃣ Clone Repository
-git clone https://github.com/yourusername/qwen-chatbot.git
-cd qwen-chatbot
-2️⃣ Install Dependencies
-pip install PyQt6 requests
-3️⃣ Install Ollama
-Download Ollama:
-https://ollama.ai
-Pull the model:
-ollama pull qwen2:1.5b
-4️⃣ Run Ollama Server
-ollama serve
-▶️ Run Application
-python main.py
-🧑‍💻 Usage
-Chat Mode
-Type a message
-Click Gönder
-Receive AI response
-Code Analysis Mode
-Paste your code
-Click Analiz Et
-Get detailed analysis including:
-Purpose
-Functions & classes
-Strengths & weaknesses
-Improvement suggestions
-📸 Screenshots
-(Add screenshots here)
-🚀 Future Improvements
-Streaming responses
-Conversation memory
-Dark mode
-Multi-model selection
-Syntax highlighting
-Export chat history
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first.
-📄 License
-MIT License
-👩‍💻 Author
-Computer Engineering Student interested in AI, LLM systems and software development.
+Overview
+A modern AI-powered desktop chatbot application built with PyQt6 and powered by a local Large
+Language Model (LLM) using Ollama. This project demonstrates how desktop GUI applications can
+integrate local AI models for real-time interaction and intelligent automation while preserving user privacy.
+Key Features
+• Real-time AI chat interface
+• Advanced code analysis capability
+• Modern styled desktop UI
+• Local LLM execution for privacy
+• Formatted AI responses with readable layout
+• Scrollable conversation history
+• Lightweight and responsive performance
+Technology Stack
+• Python – Core programming language
+• PyQt6 – Desktop GUI framework
+• Ollama – Local LLM runtime
+• Qwen2:1.5B – Language model
+• Requests – API communication layer
+• HTML formatting inside QTextEdit widgets
+Application Architecture
+User input is received through a PyQt6 graphical interface, sent to the Ollama API, processed by the
+Qwen language model, formatted for readability, and finally rendered back into the chat interface.
+Usage
+• Chat Mode: Users can send messages and receive AI-generated responses instantly.
+• Code Analysis Mode: Users paste source code and receive structured explanations, strengths,
+weaknesses, and improvement suggestions.
+Future Improvements
+• Streaming responses
+• Conversation memory
+• Dark mode support
+• Multi-model selection
+• Syntax highlighting
+• Chat history export
+Author
+Computer Engineering student focused on Artificial Intelligence, LLM systems, desktop application
+development, and human-AI interaction.
